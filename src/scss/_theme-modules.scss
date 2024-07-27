@@ -1,0 +1,267 @@
+// paper & background
+$paper: #ffffff;
+
+//////////////////////////////////////// primary
+$primaryLight: #1e88e5;
+$primaryMain: #1e88e5;
+$primaryDark: #1e88e5;
+$primary50: #1565c0;
+$primary100: #1565c0;
+$primary200: #1565c0;
+$primary300: #1565c0;
+$primary400: #1565c0;
+$primary500: #1565c0;
+$primary600: #1565c0;
+$primary700: #1565c0;
+$primary800: #1565c0;
+$primary900: #1565c0;
+
+//////////////////////////////////////// secondary
+$secondaryLight: #64b5f6;
+$secondaryMain: #2196f3;
+$secondaryDark: #1e88e5;
+$secondary50: #e3f2fd;
+$secondary100: #bbdefb;
+$secondary200: #90caf9;
+$secondary300: #64b5f6;
+$secondary400: #42a5f5;
+$secondary500: #2196f3;
+$secondary600: #1e88e5;
+$secondary700: #1976d2;
+$secondary800: #1565c0;
+$secondary900: #1e88e5;
+
+//////////////////////////////////////// success Colors
+$successLight: #6fd68a;
+$successMain: #00c354;
+$successDark: #00b34a;
+$success50: #e6f8eb;
+$success100: #c4edcc;
+$success200: #9ce1ac;
+$success300: #6fd68a;
+$success400: #48cd6f;
+$success500: #00c354;
+$success600: #00b34a;
+$success700: #00a03e;
+$success800: #008f32;
+$success900: #006f1c;
+
+//////////////////////////////////////// info
+$infoLight: #4dd0e1;
+$infoMain: #ff0707;
+$infoDark: #00acc1;
+$info50: #e0f7fa;
+$info100: #b2ebf2;
+$info200: #80deea;
+$info300: #4dd0e1;
+$info400: #26c6da;
+$info500: #00bcd4;
+$info600: #00acc1;
+$info700: #0097a7;
+$info800: #00838f;
+$info900: #006064;
+
+//////////////////////////////////////// warning
+$warningLight: #ffb74d;
+$warningMain: #ff9800;
+$warningDark: #fb8c00;
+$warning50: #fff3e0;
+$warning100: #ffe0b2;
+$warning200: #ffcc80;
+$warning300: #ffb74d;
+$warning400: #ffa726;
+$warning500: #ff9800;
+$warning600: #fb8c00;
+$warning700: #f57c00;
+$warning800: #ef6c00;
+$warning900: #e65100;
+
+///////////////////////////////////////// error
+$errorLight: #e57373;
+$errorMain: #f44336;
+$errorDark: #e53935;
+$error50: #ffebee;
+$error100: #ffcdd2;
+$error200: #ef9a9a;
+$error300: #e57373;
+$error400: #ef5350;
+$error500: #f44336;
+$error600: #e53935;
+$error700: #d32f2f;
+$error800: #c62828;
+$error900: #b71c1c;
+
+//////////////////////////////////////// grey
+$grey50: #f8fafc;
+$grey100: #eef2f6;
+$grey200: #e3e8ef;
+$grey300: #cdd5df;
+$grey500: #697586;
+$grey600: #4b5565;
+$grey700: #364152;
+$grey900: #121926;
+
+// ==============================|| DARK THEME VARIANTS ||============================== //
+
+// paper & background
+$darkBackground: #1a223f; // level 3
+$darkPaper: #111936; // level 4
+
+// dark 800 & 900
+$darkLevel1: #29314f; // level 1
+$darkLevel2: #212946; // level 2
+
+// primary dark
+$darkPrimaryLight: #eef2f6;
+$darkPrimaryMain: #2196f3;
+$darkPrimaryDark: #1e88e5;
+$darkPrimary200: #90caf9;
+$darkPrimary800: #1565c0;
+
+// secondary dark
+$darkSecondaryLight: #d1c4e9;
+$darkSecondaryMain: #1565c0;
+$darkSecondaryDark: #1565c0;
+$darkSecondary200: #1565c0;
+$darkSecondary800: #1565c0;
+
+// text variants
+$darkTextTitle: #d7dcec;
+$darkTextPrimary: #bdc8f0;
+$darkTextSecondary: #8492c4;
+
+// ==============================|| JAVASCRIPT ||============================== //
+
+:export {
+  // paper & background
+  paper: $paper;
+
+  // primary
+  primaryLight: $primaryLight;
+  primaryMain: $primaryMain;
+  primaryDark: $primaryDark;
+  primary50: $primary50;
+  primary100: $primary100;
+  primary200: $primary200;
+  primary300: $primary300;
+  primary400: $primary400;
+  primary500: $primary500;
+  primary600: $primary600;
+  primary700: $primary700;
+  primary800: $primary800;
+  primary900: $primary900;
+
+  // secondary
+  secondaryLight: $secondaryLight;
+  secondaryMain: $secondaryMain;
+  secondaryDark: $secondaryDark;
+  secondary50: $secondary50;
+  secondary100: $secondary100;
+  secondary200: $secondary200;
+  secondary300: $secondary300;
+  secondary400: $secondary400;
+  secondary500: $secondary500;
+  secondary600: $secondary600;
+  secondary700: $secondary700;
+  secondary800: $secondary800;
+  secondary900: $secondary900;
+
+  // success
+  successLight: $successLight;
+  successMain: $successMain;
+  successDark: $successDark;
+  success50: $success50;
+  success100: $success100;
+  success200: $success200;
+  success300: $success300;
+  success400: $success400;
+  success500: $success500;
+  success600: $success600;
+  success700: $success700;
+  success800: $success800;
+  success900: $success900;
+
+  // error
+  errorLight: $errorLight;
+  errorMain: $errorMain;
+  errorDark: $errorDark;
+  error50: $error50;
+  error100: $error100;
+  error200: $error200;
+  error300: $error300;
+  error400: $error400;
+  error500: $error500;
+  error600: $error600;
+  error700: $error700;
+  error800: $error800;
+  error900: $error900;
+
+  // info
+  infoLight: $infoLight;
+  infoMain: $infoMain;
+  infoDark: $infoDark;
+  info50: $info50;
+  info100: $info100;
+  info200: $info200;
+  info300: $info300;
+  info400: $info400;
+  info500: $info500;
+  info600: $info600;
+  info700: $info700;
+  info800: $info800;
+  info900: $info900;
+
+  // warning
+  warningLight: $warningLight;
+  warningMain: $warningMain;
+  warningDark: $warningDark;
+  warning50: $warning50;
+  warning100: $warning100;
+  warning200: $warning200;
+  warning300: $warning300;
+  warning400: $warning400;
+  warning500: $warning500;
+  warning600: $warning600;
+  warning700: $warning700;
+  warning800: $warning800;
+  warning900: $warning900;
+
+  // grey
+  grey50: $grey50;
+  grey100: $grey100;
+  grey200: $grey200;
+  grey300: $grey300;
+  grey500: $grey500;
+  grey600: $grey600;
+  grey700: $grey700;
+  grey900: $grey900;
+
+  // ==============================|| DARK THEME VARIANTS ||============================== //
+
+  // paper & background
+  darkPaper: $darkPaper;
+  darkBackground: $darkBackground;
+
+  // dark 800 & 900
+  darkLevel1: $darkLevel1;
+  darkLevel2: $darkLevel2;
+
+  // text variants
+  darkTextTitle: $darkTextTitle;
+  darkTextPrimary: $darkTextPrimary;
+  darkTextSecondary: $darkTextSecondary;
+
+  // primary dark
+  darkPrimaryLight: $darkPrimaryLight;
+  darkPrimaryMain: $darkPrimaryMain;
+  darkPrimaryDark: $darkPrimaryDark;
+  darkPrimary200: $darkPrimary200;
+  darkPrimary800: $darkPrimary800;
+
+  // secondary dark
+  darkSecondaryLight: $darkSecondaryLight;
+  darkSecondaryMain: $darkSecondaryMain;
+  darkSecondaryDark: $darkSecondaryDark;
+  darkSecondary200: $darkSecondary200;
+  darkSecondary800: $darkSecondary800;
+}
